@@ -1,0 +1,191 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    list-style-type: none;
+}
+
+.br{
+    height: 0;
+    width: 90vw;
+    margin-left: 5vw;
+    border: 0.04vh solid rgba(0,0,0,0.1);
+}
+
+.result-page-search-container{
+    display: block;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    height: 5vh;
+    padding-left: 24vw;
+    padding-right: 24vw;
+}
+
+.search-container{
+    display: block;
+    margin-top: 20vh;
+    height: 5vh;
+    padding-left: 24vw;
+    padding-right: 24vw;
+    /*border: 1px solid black;*/
+}
+
+.input-container{
+    display: inline-block;
+    height: 4vh;
+    width: 38vw;
+    float: left;
+    /*border: 1px solid red;*/
+}
+
+.input-container input{
+    width: 100%;
+    height: 4vh;
+    padding-left: 1vw;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: .6rem;
+}
+
+.button-container{
+    display: inline-block;
+    height: 4vh;
+    width: 10vw;
+    float: right;
+    /*border: 1px solid red;*/
+}
+
+.button-container div{
+    display: inline-block;
+    width: 100%;
+    height: 4vh;
+    line-height: 4vh;
+    text-align: center;
+    font-weight: 600;
+    border: 1px solid black;
+    border-radius: .2rem;
+}
+
+.button-container div:hover{
+    cursor: pointer;
+    background: black;
+    color: white;
+}
+
+.search-result-item{
+    /*border: 1px solid black;*/
+    width: 90vw;
+    height: 26vh;
+    margin-left: 5vw;
+    border-bottom: 0.04vh solid rgba(0,0,0,0.4);
+}
+
+.search-result-item-con{
+    /*border: 1px solid red;*/
+    margin-top: 2vh;
+    height: 22vh;
+    width: 90vw;
+}
+
+.item-title{
+    float: left;
+    margin-left: 2vw;
+    height: 13vh;
+    width: 35vw;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    /*border: 1px solid blue;*/
+}
+
+.title-con a{
+    width: 35vw;
+    overflow: hidden; /* 溢出时不显示溢出的内容 */
+    text-overflow: ellipsis; /* 发生溢出时使用省略号代替 */
+    display: -webkit-box; /* chrome浏览器的私有属性。显示为box。 */
+    -webkit-box-orient: vertical; /* 垂直排列元素 */
+    -webkit-line-clamp: 2; /* 显示多少行 */
+    text-decoration: none;
+    color: rgb(10, 100, 150);
+}
+
+.shop-logo{
+    position: absolute;
+    width: 35vw;
+    height: 3vh;
+    margin-top: 9vh;
+    /*border: 1px solid blue;*/
+}
+
+.shop-logo span{
+    float: left;
+    height: 3vh;
+    line-height: 3vh;
+    margin-left: 1vw;
+    font-size: 0.8rem;
+    font-weight: 600;
+    /*color: rgba(0,0,0,0.5);*/
+}
+
+.search-result-item-con div{
+    display: inline-block;
+}
+
+.item-img{
+    float: left;
+    margin-top: 0.5vh;
+    margin-left: 8vw;
+    height: 21vh;
+    width: 21vh;
+}
+
+.item-img a img{
+
+    width: 100%;
+    height: 100%;
+}
+
+.shop-logo img{
+    float: left;
+    width: 3vh;
+    height: 3vh;
+}
+
+.item-price{
+    min-width: 10vw;
+    height: 4vh;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    text-align: center;
+    line-height: 4vh;
+    font-size: 1.2rem;
+    /*border: 1px solid red;*/
+    color: rgb(238,0,0);
+}
+
+.item-comment{
+    min-width: 10vw;
+    height: 4vh;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    text-align: right;
+    line-height: 4vh;
+    /*border: 1px solid red;*/
+    float: right;
+    margin-right: 5vw;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: rgb(10, 100, 150);
+}
+
+.discount{
+    min-width: 16vw;
+    height: 3vh;
+    line-height: 3vh;
+    margin-top: 4.5vh;
+    /*border: 1px solid red;*/
+    float: right;
+    margin-right: 5vw;
+    text-align: right;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: rgb(238,0,0);
+}
